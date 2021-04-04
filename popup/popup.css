@@ -1,0 +1,13 @@
+body {
+  height: 10rem;
+  width: 10rem;
+  padding: 1rem;
+}
+button {
+  width: 100%;
+  margin: 0 auto;
+  padding: 1rem;
+  border: none;
+  border-radius: 2px;
+  cursor: pointer;
+}
