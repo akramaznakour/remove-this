@@ -1,14 +1,26 @@
 {
-  "name": "Remove this",
-  "action": {},
+  "name": "Getting Started Example",
+  "description": "Build an Extension!",
+  "version": "1.0",
   "manifest_version": 3,
-  "version": "0.1",
-  "description": "Remove this",
-  "permissions": [
-    "activeTab",
-    "scripting"
-  ],
   "background": {
     "service_worker": "background.js"
-  }
+  },
+  "permissions": ["storage", "activeTab", "scripting"],
+  "action": {
+    "default_popup": "popup/popup.html",
+    "default_icon": {
+      "16": "/images/cursor_16.png",
+      "32": "/images/cursor_32.png",
+      "48": "/images/cursor_48.png",
+      "128": "/images/cursor_128.png"
+    }
+  },
+  "icons": {
+    "16": "/images/cursor_16.png",
+    "32": "/images/cursor_32.png",
+    "48": "/images/cursor_48.png",
+    "128": "/images/cursor_128.png"
+  },
+  "options_page": "options/options.html"
 }
